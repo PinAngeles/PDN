@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@400;500;600 & display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color:lavender;
+}
+
+.container{
+    display: flex; 
+    background-color:ghostwhite; /*color de fondo*/
+    height: 800px; /*altura al formulario*/
+    width: 1000px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    margin:auto;
+    margin-top: 60px;
+    border-radius: 30px;   
+}
+
+.form {
+    padding: 34px 115px; /* para mover el formulario*/
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+}
+
+.form h2{
+    font-size: 45px;
+    color:dimgrey;
+    font-weight: 600;
+    margin-bottom: 25px;
+    padding: 40px 250px;
+}
+
+label{
+    font-size: 20px;
+    color:slategray;
+    margin-bottom: 3px;
+}
+
+input{
+    border: 0;
+    background-color:lavender;
+    padding: 13px;
+    border-radius: 25px;
+    margin-bottom: 0px;
+    outline: none;
+    
+}
+
+select{
+    border: 0;
+    background-color:lavender;
+    padding: 13px;
+    border-radius: 25px;
+    margin-bottom: 0;
+    outline: none;
+}
+
+.submit{
+
+    background-color:dimgrey;
+    border: 0;
+    padding: 15px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 25px;
+    width: 250px;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(rgba(118, 106, 184, 0.37), rgb(111, 111, 119), rgb(70, 70, 104), alpha);
+}
+
+.info {
+    padding: 200px 1px;
+}
+
+.img-1{
+    width: 450px;
+    margin-bottom: 75px;
+
+
+}
